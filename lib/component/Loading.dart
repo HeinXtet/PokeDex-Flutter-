@@ -8,10 +8,13 @@ class Loading extends StatelessWidget {
     PokemonListController controller = Get.find();
     return Obx(
       () => controller.loading.value
-          ? Center(
-              child: CircularProgressIndicator(
-                valueColor: AlwaysStoppedAnimation<Color>(Colors.grey),
-                backgroundColor: Colors.red,
+          ? Container(
+              height: MediaQuery.of(context).size.height,
+              child: Center(
+                child: CircularProgressIndicator(
+                  valueColor: AlwaysStoppedAnimation<Color>(Colors.grey),
+                  backgroundColor: Colors.red,
+                ),
               ),
             )
           : Container(),

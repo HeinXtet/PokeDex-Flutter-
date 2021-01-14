@@ -2,20 +2,22 @@ import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:poke_dex/model/PokemonResult.dart';
+import 'package:flutter/material.dart';
 
 class PokemonListController extends GetxController {
   var pokemonList = [].obs;
+  var color = Colors.green.obs;
   static const BASE_API_URL = "https://pokeapi.co/api/v2/";
   static const BASE_IMAGE_URL =
       "https://pokeres.bastionbot.org/images/pokemon/";
-  var isLoading = false.obs;
+  var loading = false.obs;
   static const LIMIT = 20;
   var page = 0;
-  var loading = false.obs;
 
   PokemonListController() {
     fetchPokemon();
   }
+
 
   loadMore() {
     if (loading.value) {

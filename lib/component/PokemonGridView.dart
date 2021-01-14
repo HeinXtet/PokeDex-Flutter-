@@ -31,6 +31,7 @@ class PokemonGridView extends StatelessWidget {
           return PokemonRow(
             pokemon: pokemon,
             index: index,
+            controller: controller,
           );
         },
       ),
