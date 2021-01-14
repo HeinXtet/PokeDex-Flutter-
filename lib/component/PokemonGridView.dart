@@ -14,7 +14,6 @@ class PokemonGridView extends StatelessWidget {
       if (_scrollController.offset >=
               _scrollController.position.maxScrollExtent &&
           !_scrollController.position.outOfRange) {
-        print("Load More");
         controller.loadMore();
       }
     }

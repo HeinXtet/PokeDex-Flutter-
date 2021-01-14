@@ -8,7 +8,7 @@ void main() => runApp(PokeDexApp());
 class PokeDexApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    PokemonListController controller = Get.put(PokemonListController());
+     Get.put(PokemonListController());
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
