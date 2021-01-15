@@ -138,7 +138,7 @@ class DetailState extends State<PokemonDetail> {
                                                 margin: EdgeInsets.all(20),
                                                 padding: EdgeInsets.symmetric(
                                                     vertical: 16,
-                                                    horizontal: 50),
+                                                    horizontal: 40),
                                                 decoration: BoxDecoration(
                                                     color: getTypeColor(
                                                         type.type['name']),

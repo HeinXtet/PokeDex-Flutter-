@@ -1,10 +1,13 @@
-# poke_dex
+# Poke Dex
 
 A new Flutter application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is small application to explore  Pokemons status.
+
+
+
 
 A few resources to get you started if this is your first Flutter project:
 
