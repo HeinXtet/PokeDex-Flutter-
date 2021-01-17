@@ -6,7 +6,11 @@ A new Flutter application.
 
 This project is small application to explore  Pokemons status.
 
+## Screenshopts
 
+[<img src="/img/splash_img.png" width="250"/>](splash_img.png)
+[<img src="/img/pokemons_img.png" width="250"/>](pokemons_img.png)
+[<img src="/img/detail_img.png" width="250"/>](detail_img.png)
 
 
 A few resources to get you started if this is your first Flutter project:
